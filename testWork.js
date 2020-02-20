@@ -56,7 +56,6 @@ const sumFibonacci = (maxNumber) => {
                 sum = sum + element;
             }
             lastElements = [lastElements[1], element];
-
             newElement(lastElements, maxNumber);;
         } else {
             return;
